@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Cache;
 
 class HomeController extends Controller
 {
@@ -35,7 +37,19 @@ class HomeController extends Controller
 
     public function rates()
     {
-        return view('pages.rates.rates');
+        
+
+        // return Cache::remember('city' . $city, 60 * 5, function() use ($coordinates) {
+            $rates = Http::get('http://vorkkloc.localhost/api/rates');
+            $rates = $rates->json();
+   
+        //     if ($rates->successful()) {
+        //         return rates;
+        //     }
+
+        //     return rates=[];
+        // });
+        return view('pages.rates.rates',compact('rates'));
     }
 
 
