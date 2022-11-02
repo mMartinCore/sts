@@ -6,16 +6,12 @@
         <div class="    max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="  overflow-hidden shadow-sm sm:rounded-lg">
 
-                <div class=" pt-24  ">
+                <div class=" pt-16 mb-8 "> 
 
-
-                    <div class=" flex flex-cols justify-center px-4">
-                        <iframe class="  " src="https://sts.jashippers.com/team_rate" width="100%" height="800"
-                            scrolling="auto" frameborder="0"></iframe>
+<livewire:rate> 
                     </div>
 
-                    <div
-                        class="container  px-4 mx-auto flex flex-wrap flex-col md:flex-row items-center justify-evenly">
+                    <div  class="container mt-20 px-4 mx-auto flex flex-wrap flex-col md:flex-row items-center justify-evenly">
                         <!--Left Col-->
                         <div data-aos="fade-down-left" data-aos-duration="2000"
                             class="flex flex-col w-full md:w-3/7 mr-12 mb-12 font-serif justify-center items-start text-center md:text-left">

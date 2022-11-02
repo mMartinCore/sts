@@ -40,16 +40,23 @@ class HomeController extends Controller
         
 
         // return Cache::remember('city' . $city, 60 * 5, function() use ($coordinates) {
-            // $rates = Http::get('http://vorkkloc.localhost/api/rates');
-            // $rates = $rates->json();
-   
+            $rates = Http::get('http://vorkkloc.localhost/api/rates');
+            
+          
         //     if ($rates->successful()) {
         //         return rates;
         //     }
 
         //     return rates=[];
         // });
-        return view('pages.rates.rates' );
+
+        // $rates=$rates=$rates->json()   ;
+        $rates=$rates=json_decode($rates)   ;
+        
+        $links =$rates->meta->links;
+
+        //  dd($rates->meta->links);   ;
+        return view('pages.rates.rates',  compact('rates','links'));
     }
 
 
