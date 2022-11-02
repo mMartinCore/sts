@@ -12,7 +12,7 @@ class Rate extends Component
     public $rlink;
    public function mount(){
    
- $this->get_link='http://vorkkloc.localhost/api/rates';
+ $this->get_link='https://jashippers.com/api/rates';
    }
 
    public function getlink($link ){
