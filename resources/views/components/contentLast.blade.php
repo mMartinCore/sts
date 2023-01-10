@@ -4,7 +4,7 @@
     padding: 25px;
     background-image: url("{{asset('storage/images/paralax.png')}}");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 </style>
 
