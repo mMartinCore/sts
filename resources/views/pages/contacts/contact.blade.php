@@ -1,4 +1,14 @@
 <x-app-layout>
+  <!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-183813942-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-183813942-1');
+</script>
  <x-top-section-contact/>
     <div class="py-2   ">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
