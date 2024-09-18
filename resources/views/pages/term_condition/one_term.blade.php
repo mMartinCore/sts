@@ -1,4 +1,4 @@
-<div class="terms-and-conditions">
+<div class="terms-and-conditions mb-8">
     <h2 class="text-2xl text-gray-700 mb-4">Distribution of collected information:</h2>
 
     <div class="text-sm space-y-4">
