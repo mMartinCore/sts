@@ -77,7 +77,7 @@
             {{ $slot }}
         </main>
     </div>
-   <link href="{{asset('AOS/aos.css')}}" rel="stylesheet">
+    <link href="{{asset('AOS/aos.css')}}" rel="stylesheet">
     <script src="{{asset('AOS/aos.js')}}"></script>
     <!-- @stack('modals') -->
 
