@@ -56,12 +56,7 @@
             class="w-full md:w-1/2 space-y-6 md:space-y-8 p-4 rounded-lg">
                 
                 <!-- Main Message -->
-                <div class="text-gray-200">
-                    <p class="text-lg sm:text-xl md:text-2xl leading-relaxed font-light">
-                        Ship with confidence - one simple flat rate, no hidden fees. Send phones and electronics starting at just 
-                        <span class="font-semibold text-blue-900">$50 USD</span>.
-                    </p>
-                </div>
+           
 
                 <!-- Business Section -->
                 <div class="bg-gray-800/50 backdrop-blur-sm pb-4 md:pb-6 rounded-xl  ">

@@ -42,7 +42,7 @@
                 <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
                 </svg>
-                <span class="text-gray-600">WhatsApp: <span class="text-blue-700 font-medium">876-831-7012</span></span>
+                <span class="text-gray-600">WhatsApp: <span class="text-blue-700 font-medium">876-792-7715</span></span>
             </div>
         </div>
     </div>
@@ -71,12 +71,12 @@
                 <tbody class="divide-y divide-gray-200">
                     @foreach ([
                         ['Sunday', 'Closed'],
-                        ['Monday', '10:30am–6pm'],
-                        ['Tuesday', '10:30am–6pm'], 
-                        ['Wednesday', '10:30am–3pm'],
-                        ['Thursday', '10:30am–3pm'],
-                        ['Friday', '10:30am–6pm'],
-                        ['Saturday', '10am–2pm']
+                        ['Monday', '9:30am–6pm'],
+                        ['Tuesday', '9:30am–6pm'], 
+                        ['Wednesday', '9:30am–6pm'],
+                        ['Thursday', '9:30am–3pm'],
+                        ['Friday', '9:30am–6pm'],
+                        ['Saturday', '10am–5pm']
                     ] as [$day, $hours])
                         <tr class="hover:bg-gray-50">
                             <td class="px-6 py-3 whitespace-nowrap text-sm font-medium text-gray-900">

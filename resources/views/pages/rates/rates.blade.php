@@ -289,7 +289,7 @@
 
                     <div
                         class="container px-4 mx-auto flex flex-wrap flex-col md:flex-row items-center  shadow-lg rounded mt-12">
-                        <div
+                        <!-- <div
                             class="flex flex-col w-full md:w-2/5 mr-12   justify-center items-start text-center md:text-left">
                             <article class="mb-12">
                                 <p class="leading-normal  mt-4 text-sm  mb-8 xs:text:sm">
@@ -299,14 +299,14 @@
                                     <span class="text-red-400"> (Prices are Subjected to Change)</span>
                                 </p>
                             </article>
-                        </div>
+                        </div> -->
 
                         <div
-                            class="flex flex-col w-full md:w-2/5 mr-12   justify-center items-start text-center md:text-left  ">
+                            class="flex flex-col w-full  mr-12   justify-center items-start text-center md:text-left  ">
                             <article class="mb-12">
                                 <p class="leading-normal  text-sm  mb-8 xs:text:sm">
-                                    The Rates Quoted above are for items that Value less than $50.00 USD which does not
-                                    attract Customs duty. Items over $50.00 USD may attract other charges.
+                                    The Rates Quoted above are for items that Value less than $100.00 USD which does not
+                                    attract Customs duty. Items over $100.00 USD may attract other charges.
                                 </p>
                             </article>
                         </div>
