@@ -74,7 +74,7 @@
                         ['Monday', '9:30am–6pm'],
                         ['Tuesday', '9:30am–6pm'], 
                         ['Wednesday', '9:30am–6pm'],
-                        ['Thursday', '9:30am–3pm'],
+                        ['Thursday', '9:30am–6pm'],
                         ['Friday', '9:30am–6pm'],
                         ['Saturday', '10am–5pm']
                     ] as [$day, $hours])
