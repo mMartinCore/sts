@@ -10,12 +10,7 @@
   gtag('config', 'UA-183813942-1');
 </script>
     <div class="py-0">
-    <x-banner >About Us</x-banner>
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 93b1426 (yes)
+    <x-banner >About Us</x-banner> 
        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="  overflow-hidden  sm:rounded-lg">
                 <div class="   font-serif text-gray-700 p-4 mx-auto flex flex-wrap flex-col md:flex-row items-center">

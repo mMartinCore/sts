@@ -43,7 +43,6 @@
     padding: 0;
 }
 
-
 .slide-text h2 {
     font-size: 1rem;
     font-weight: 700;
@@ -120,30 +119,26 @@
 }
 
 /* Modern Button Styling */
-.primary {
-    display: inline-block;
-    background-color: transparent;
-    color: #ffffff;
+button.primary {
+    background-color: #ffffff;
+    color: #0f172a;
     padding: 1rem 2rem;
-    border: 2px solid #ffffff;
+    border: none;
     border-radius: 0.75rem;
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.primary:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+button.primary:hover {
+    background-color: #f8fafc;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    text-decoration: none;
 }
 
-.secondary {
-    display: inline-block;
+button.secondary {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -154,14 +149,12 @@
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-decoration: none;
 }
 
-.secondary:hover {
+button.secondary:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.3);
     transform: translateY(-2px);
-    text-decoration: none;
 }
 
 /* Navigation Arrows Styling */
@@ -194,7 +187,8 @@
 }
 
 .splide__arrow:hover {
-    background: #669830; 
+    background: #ffffff;
+    transform: scale(1.1);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
@@ -239,7 +233,10 @@
         gap: 3rem;
     }
 
- 
+    .slide-text h1 {
+        font-size: 3rem;
+    }
+
     .slide-image img {
         max-height: 450px;
     }
@@ -326,11 +323,6 @@
         width: 1.2rem;
         height: 1.2rem;
     }
-}
-
-.list_responsive {
-    display: flex;
-    gap: 4px !important;
 }
 
 @media (max-width: 480px) {
@@ -444,7 +436,7 @@
     background: #0056b3;
 }
 
-/*  
+ 
 .china-service-slide {
     text-align: center;
     max-width: 800px;
@@ -473,7 +465,7 @@
     transform: translateY(-2px);
     background: rgba(255, 255, 255, 0.15);
 }
-/* 
+
 /* Modern styling for China Service slide */
 .china-service-slide {
     text-align: left; /* Left-aligned text for modern look */
@@ -496,9 +488,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1.5rem;
-} */ */
+}
 
-/* .china-service-slide p {
+.china-service-slide p {
     font-size: 1.25rem;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.9);
@@ -524,14 +516,14 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-} */
+}
 
-/* .china-service-slide li:hover {
+.china-service-slide li:hover {
     transform: translateY(-4px);
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-} */
+}
 
 /* Update the overlay for better contrast */
 .overlay-slide {
@@ -544,7 +536,7 @@
 }
 
 /* Responsive adjustments */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .china-service-slide {
         text-align: center;
         padding: 2rem;
@@ -558,7 +550,7 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-} */
+}
 </style>
 
 <div class="splide">
@@ -578,7 +570,7 @@
                                 speedy delivery service.
                             </p>
                             <div class="button-group">
-                                <a href="https://sts.jashippers.com/register" class="primary">Get Ready Now!</a>
+                                <button class="primary">Get Ready Now!</button> 
                             </div>
                         </div>
                         <div class="slide-image ">
@@ -604,7 +596,7 @@
                                 Pay one flat rate barrel shipments.
                             </p>
                             <div class="button-group">
-                                <a href="https://sts.jashippers.com/register" class="primary">Get Ready Now!</a>
+                            <button class="primary">Get Ready Now!</button>  
                             </div>
                         </div>
                         <div class="slide-image">
@@ -628,7 +620,7 @@
                                 Express shipping for urgent deliveries. Get your items quickly and securely.
                             </p>
                             <div class="button-group">
-                                <a href="https://sts.jashippers.com/register" class="primary">Ship Now</a>
+                                <button class="primary">Ship Now</button> 
                             </div>
                         </div>
                         <div class="slide-image">
@@ -653,13 +645,13 @@
                                 real-time tracking, and competitive rates worldwide. Experience seamless 
                                 international shipping with our expert team.
                             </p>
-                            <div class="button-group">
-                                <a href="https://sts.jashippers.com/register" class="primary">Get Ready Now!</a>
+                            <div class="button-group"> 
+                                <button class="primary">Get Ready Now!</button>
                             </div>
                         </div>
                         <div class="slide-image">
                             <img 
-                                src="{{ asset('storage/images/container.jpg') }}"
+                                src="https://cdn.pixabay.com/photo/2018/07/21/16/32/container-3552869_1280.jpg" 
                                 alt="Global Shipping Container" 
                                 loading="lazy">
                         </div>
@@ -668,29 +660,27 @@
             </li>
 
             <li class="splide__slide">
-                    <section class="fourthBgColor relative" style="
-                        background-image: url({{ asset('storage/images/ship_to_sure_ja_from_china.png') }});
+                <section class="fourthBgColor" style="
+                    background-image: url('https://img.freepik.com/free-photo/flag-china_1401-89.jpg?t=st=1731192272~exp=1731195872~hmac=ed3e4daabdfc509f0bf5f6e3b381d98447d57a98c81e19933f1529d8388385cc&w=1060');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;">
-                    <!-- Dark overlay with stronger opacity -->
-                    <div class="absolute top-0 left-0 w-full h-full bg-black opacity-75"></div>
-                    <div class="overlay-slide relative z-10"> <!-- Content stays above overlay -->
-                        <div class="slide-content">
-                            <div class="slide-text">
+                    <div class="overlay-slide">
+                        <div class="slide-content_china">
+                            <div class="slide-text china-service-slide">
                                 <h2>China Shipment Service</h2>
-                                <h1>Buy & Ship with Ease from China</h1>
+                                <h1>Buy & Ship with Ease</h1>
                                 <p>
                                     Experience seamless importing from China with our comprehensive shipping solutions
                                 </p>
-                                <ul class=" w-full grid grid-cols-1 lg:grid-cols-1 gap-4 mb-6 ">
-                                    <li class="flex items-center   bg-red-900 gap-4 px-6 py-4 text-sm sm:text-base md:text-lg text-white bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/10 hover:border-white/20 hover:shadow-lg">✨ Direct purchasing from trusted Chinese suppliers</li>
-                                    <li class="flex items-center  bg-red-900  gap-4 px-6 py-4 text-sm sm:text-base md:text-lg text-white bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/10 hover:border-white/20 hover:shadow-lg">🚢 End-to-end shipping logistics management</li>
-                                    <li class="flex items-center bg-red-900  gap-4 px-6 py-4 text-sm sm:text-base md:text-lg text-white bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/10 hover:border-white/20 hover:shadow-lg">⚡ Swift and secure delivery</li>
+                                <ul>
+                                    <li>✨ Direct purchasing from trusted Chinese suppliers</li>
+                                    <li>🚢 End-to-end shipping logistics management</li>
+                                    <li>⚡ Swift and secure delivery</li>
                                 </ul>
-                                <!-- <div class=" flex items-center justify-center  ">
+                                <div class=" flex items-center justify-center">
                                     <button class="primary">Start Shipping Now</button> 
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>

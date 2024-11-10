@@ -1,20 +1,20 @@
-<div class="m-auto sm:px-24 w-lg xs:px-0 mybg">
+<div class="m-auto sm:px-24 w-lg xs:px-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
 
-    <section class="text-gray-700 body-font">
-        <div class="container px-8 pt-8 pb-24 mx-auto lg:px-4">
-            <header class="space-y-2 text-center">
-                <p class="text-sm font-bold tracking-wider uppercase font-display text-primary-600">
+    <section class="text-gray-300 body-font">
+        <div class="container px-4 pt-8 pb-24 mx-auto">
+            <header class="space-y-2 text-center mb-8">
+                <p class="text-sm font-bold tracking-wider uppercase font-display text-blue-400">
                     Testimonials
                 </p>
 
-                <h2 class="  font-bold tracking-tighter md: text-2xl font-display">
-                    See what our customer say.
+                <h2 class="font-bold tracking-tighter text-white text-xl md:text-2xl font-display">
+                    See what our customers say.
                 </h2>
             </header>
-            <div class="flex flex-wrap -m-4">
-                <div data-aos="flip-right" data-aos-duration="2000" class="p-8 mx-auto mb-6 lg:w-1/3 lg:mb-0">
-                    <div class="h-full p-4 text-left bg-white border rounded-xl">
-                        <p class="text-base font-medium leading-relaxed text-gray-700"> <span
+            <div class="flex flex-wrap -m-2 md:-m-4">
+                <div data-aos="flip-right" data-aos-duration="2000" class="w-full p-2 md:p-8 md:w-1/3">
+                    <div class="h-full p-3 md:p-4 text-left bg-gray-800/80 backdrop-blur border border-gray-700 rounded-xl hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+                        <p class="text-sm md:text-base font-medium leading-relaxed text-gray-300"> <span
                                 class=" text-2xl text-blue-400">“</span>
                             Ship to sure has some of the best rates and their customer service is next to none. There is
                             always someone available to assist me. I have never once payed for delivery!😁<span
@@ -25,14 +25,14 @@
                                 src="https://dummyimage.com/302x302/94a3b8/ffffff">
                         </a> -->
                         <span class="flex flex-col flex-grow ">
-                            <span class="font-medium text-gray-900 title-font">@raynabeautyboutique</span>
+                            <span class="font-medium text-gray-100 title-font">@raynabeautyboutique</span>
                             <!-- <span class="text-sm text-gray-500 uppercase">Corporate Position</span> -->
                         </span>
                     </div>
                 </div>
-                <div data-aos="flip-up" data-aos-duration="2000" class="p-8 mx-auto mb-6 lg:w-1/3 lg:mb-0">
-                    <div class="h-full p-4 text-left bg-white border rounded-xl">
-                        <p class="text-base font-medium leading-relaxed text-gray-700"> <span
+                <div data-aos="flip-up" data-aos-duration="2000" class="w-full p-2 md:p-8 md:w-1/3">
+                    <div class="h-full p-3 md:p-4 text-left bg-gray-800/80 backdrop-blur border border-gray-700 rounded-xl hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+                        <p class="text-sm md:text-base font-medium leading-relaxed text-gray-300"> <span
                                 class=" text-2xl text-blue-400">“</span>
                             Shiptosure always provide top shelf customer service. I ship by both air and sea and the
                             prices are great. These guys do everything to ensure their customers are satisfied. I highly
@@ -44,14 +44,14 @@
                                 src="https://dummyimage.com/302x302/94a3b8/ffffff">
                         </a> -->
                         <span class="flex flex-col flex-grow ">
-                            <span class="font-medium text-gray-900 title-font">Michael Durrant</span>
+                            <span class="font-medium text-gray-100 title-font">Michael Durrant</span>
                             <!-- <span class="text-sm text-gray-500 uppercase">Corporate Position</span> -->
                         </span>
                     </div>
                 </div>
-                <div data-aos="flip-left" data-aos-duration="2000" class="p-8 mx-auto mb-6 lg:w-1/3 lg:mb-0">
-                    <div class="h-full p-4 text-left bg-white border rounded-xl">
-                        <p class="text-base font-medium leading-relaxed text-gray-700"> <span
+                <div data-aos="flip-left" data-aos-duration="2000" class="w-full p-2 md:p-8 md:w-1/3">
+                    <div class="h-full p-3 md:p-4 text-left bg-gray-800/80 backdrop-blur border border-gray-700 rounded-xl hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+                        <p class="text-sm md:text-base font-medium leading-relaxed text-gray-300"> <span
                                 class=" text-2xl text-blue-400">“</span>
                             @shiptosureja I can depend on them to deliver my packages in time. I ship electronics for my business and they are so reliable.  <span class="ml-4  text-2xl text-blue-400"> ” </span></p>
                         <!-- <a class="flex flex-wrap items-center mt-6">
@@ -60,7 +60,7 @@
                                 src="https://dummyimage.com/302x302/94a3b8/ffffff">
                         </a> -->
                         <span class="flex flex-col flex-grow ">
-                            <span class="font-medium text-gray-900 title-font">@mykonceptsphotography</span>
+                            <span class="font-medium text-gray-100 title-font">@mykonceptsphotography</span>
                             <!-- <span class="text-sm text-gray-500 uppercase">Corporate Position</span> -->
                         </span>
                     </div>

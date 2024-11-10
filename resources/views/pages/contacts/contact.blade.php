@@ -10,7 +10,7 @@
   gtag('config', 'UA-183813942-1');
 </script>
  <x-top-section-contact/>
-    <div class="py-2   ">
+    <div class="py-2  bg-white ">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
             <section class="text-gray-700 body-font   rounded-lg">
                 <div class="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row">
@@ -20,90 +20,78 @@
                             <div
                                 class="flex flex-col items-center w-full p-4 mb-6 text-center md:mb-0 lg:text-left lg:items-start">
                           
-                                <div class="flex-grow">
-                                    <h1 class="mb-8 text-2xl font-bold tracking-tighter text-center text-black lg:text-left lg:text-3xl title-font">
-                                    Let's talk about everything! 
-                                    </h1>
+                                <div class="flex-grow"> 
 
 
 
 
 
 
-
-        <div class="text-gray-700   mt-8">
-                    <p class="text-gray-700 block ">Cellphone :   <span class="text-blue-900   "> 876 - 813 - 1312</span></p>
-                    <p class="text-gray-700 block ">WhatsApp :   <span class="text-blue-900   "> 876 - 831 - 7012</span></p>
-
-                    <p class="text-gray-700 block ">Join Us on</p>
-            <div class="flex flex-row mt-2 mb-4 ">
-
-                <span class="mt-2   mr-4 md:block  ">
-                    <a href="https://facebook.com/shiptosureja" class="no-underline hover:underline text-gray-800 hover:text-orange-500">  <img  src="{{asset('storage/images/facebook.png')}}" width="38px"></a>
-                </span>
-                <span class="mt-2  ml-8  mr-4 md:block  ">
-                    <a href="https://instagram.com/shiptosureja" class="no-underline hover:underline text-gray-800 hover:text-orange-500"> <img  src="{{asset('storage/images/instagram.png')}}"   width="38px"></a>
-                </span>
-                <span class="mt-2 ml-8   mr-4 md:block  ">
-                    <a href="https://twitter.com/shiptosureja" class="no-underline hover:underline text-gray-800 hover:text-orange-500"><img src="{{asset('storage/images/twitter.png')}}"   width="38px"></a>
-                </span>
+        <div class="text-gray-700 mt-8 space-y-8">
+    <!-- Contact Info Section -->
+    <div class="space-y-4">
+        <h2 class="text-xl font-semibold text-gray-900">Contact Information</h2>
+        <div class="space-y-2">
+            <div class="flex items-center space-x-2">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+                <span class="text-gray-600">Cellphone: <span class="text-blue-700 font-medium">876-813-1312</span></span>
             </div>
+            <div class="flex items-center space-x-2">
+                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                </svg>
+                <span class="text-gray-600">WhatsApp: <span class="text-blue-700 font-medium">876-831-7012</span></span>
+            </div>
+        </div>
+    </div>
 
-          </div>
+    <!-- Social Media Section -->
+    <div class="space-y-4">
+        <h2 class="text-xl font-semibold text-gray-900">Connect With Us</h2>
+        <div class="flex space-x-6">
+            <a href="https://facebook.com/shiptosureja" class="transform transition hover:scale-110">
+                <img src="{{asset('storage/images/facebook.png')}}" alt="Facebook" class="w-10 h-10">
+            </a>
+            <a href="https://instagram.com/shiptosureja" class="transform transition hover:scale-110">
+                <img src="{{asset('storage/images/instagram.png')}}" alt="Instagram" class="w-10 h-10">
+            </a>
+            <a href="https://twitter.com/shiptosureja" class="transform transition hover:scale-110">
+                <img src="{{asset('storage/images/twitter.png')}}" alt="Twitter" class="w-10 h-10">
+            </a>
+        </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-                                    <p class="text-base leading-relaxed  ">
-                                    <style>
-                                    .SKNSIb{
-                                        width: 50%;
-                                    }
-                                    </style>
-                                    <table >
-                                        <tbody>                                        
-                                            <tr>
-                                                 
-                                                <td><b>Opening Hours</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="SKNSIb">Sunday</td>
-                                                <td>Closed</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="SKNSIb">Monday</td>
-                                                <td>10:30am–6pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="SKNSIb">Tuesday</td>
-                                                <td>10:30am–6pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="SKNSIb">Wednesday</td>
-                                                <td>10:30am–3pm</td>
-                                            </tr>
-                                            <tr class="K7Ltle">
-                                                <td class="SKNSIb">Thursday</td>
-                                                <td>10:30am–3pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="SKNSIb">Friday</td>
-                                                <td>10:30am–6pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="SKNSIb">Saturday</td>
-                                                <td>10am–2pm</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    </p> 
+    <!-- Opening Hours Section -->
+    <div class="space-y-4">
+        <h2 class="text-xl font-semibold text-gray-900">Opening Hours</h2>
+        <div class="  rounded-lg shadow-sm border border-gray-100">
+            <table class="min-w-full divide-y divide-gray-200">
+                <tbody class="divide-y divide-gray-200">
+                    @foreach ([
+                        ['Sunday', 'Closed'],
+                        ['Monday', '10:30am–6pm'],
+                        ['Tuesday', '10:30am–6pm'], 
+                        ['Wednesday', '10:30am–3pm'],
+                        ['Thursday', '10:30am–3pm'],
+                        ['Friday', '10:30am–6pm'],
+                        ['Saturday', '10am–2pm']
+                    ] as [$day, $hours])
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
+                                {{ $day }}
+                            </td>
+                            <td class="px-6 py-3 whitespace-nowrap text-sm text-gray-600">
+                                {{ $hours }}
+                            </td>
+                        </tr>
+                    @endforeach
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 
 
 
@@ -112,6 +100,15 @@
 
 
 
+
+ 
+
+
+
+
+
+
+<!-- 
 
                                     <svg class="w-full " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ae37f038-3a9e-4b82-ad68-fc94ba16af2a" data-name="Layer 1" viewBox="0 0 1096 574.74">
             <defs>
@@ -352,7 +349,7 @@
             <path d="M518.37,597.59a7.52,7.52,0,0,1,0-.82,9.34,9.34,0,0,1-2.57-3.55,11.34,11.34,0,0,1-8.32-8.59,11.05,11.05,0,0,1-7.63-4.74,9.6,9.6,0,0,1-2.13-.06,11.11,11.11,0,0,0,7.35,4.37,11.37,11.37,0,0,0,8.32,8.58,9.55,9.55,0,0,0,2.57,3.55c0,.27,0,.55,0,.83a7.34,7.34,0,0,0,7.17,7.46A7.46,7.46,0,0,1,518.37,597.59Z" transform="translate(-52 -162.63)" opacity="0.1"></path>
             <ellipse cx="505.04" cy="584.74" rx="1.31" ry="1.75" transform="translate(-302.82 261.95) rotate(-37.22)" fill="#fbbebe"></ellipse>
           </svg>
-
+ -->
 
 
 
@@ -371,6 +368,198 @@
                 </div>
             </section>
 
+
+            <section id="list_of_branches_with_contact_info"
+             class="bg-white  py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Our Branches</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Portmore Branch -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Portmore Branch</h3>
+                <p class="text-gray-600 mb-4">34A Passagefort Drive Portmore St Catherine</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-792-7715</p>
+                    <p class="text-gray-600">Phone 2: 876-665-6611</p>
+                </div>
+            </div>
+
+            <!-- May Pen -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> May Pen</h3>
+                <p class="text-gray-600 mb-4">Shop 11, 6B Chapleton Road, Daily Delicious Plaza (Behind Singer)</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-462-9527</p>
+                    <p class="text-gray-600">Phone 2: 876-665-6611</p>
+                </div>
+            </div>
+
+            <!-- Ocho Rios -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Ocho Rios</h3>
+                <p class="text-gray-600 mb-4">79 Main Street (Infront Singer)</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-909-7501</p>
+                    <p class="text-gray-600">Phone 2: 876-632-5912</p>
+                </div>
+            </div>
+
+            <!-- Half Way Tree -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Half Way Tree (Eastwood Mall)</h3>
+                <p class="text-gray-600 mb-4">Container #7, Eastwood Mall, HWT (Beside Transport Centre) Kgn 10</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-231-4871</p>
+                    <p class="text-gray-600">Phone 2: 876-231-4871</p>
+                </div>
+            </div>
+
+            <!-- Hanover -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Hanover</h3>
+                <p class="text-gray-600 mb-4">Shop 14 Lovebird Mall, Bamboo Drive, Hopewell, Hanover</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-574-5900</p>
+                    <p class="text-gray-600">Phone 2: 876-665-6611</p>
+                </div>
+            </div>
+
+            <!-- Montego Bay -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Montego Bay Delivery</h3>
+                <p class="text-gray-600 mb-4">Delivery only</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-831-7012</p>
+                    <p class="text-gray-600">Phone 2: 876-831-7012</p>
+                </div>
+            </div>
+
+            <!-- Kingston -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Kingston (125 Maxfield Ave)</h3>
+                <p class="text-gray-600 mb-4">Suite 1, 125 Maxfield Avenue, Kingston</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-237-8448</p>
+                    <p class="text-gray-600">Phone 2: 876-665-6611</p>
+                </div>
+            </div>
+
+            <!-- UWI Mona -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> UWI Mona Campus</h3>
+                <p class="text-gray-600 mb-4">Leslie Robinson Hall</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-792-7715</p>
+                    <p class="text-gray-600">Phone 2: 876-909-7501</p>
+                </div>
+            </div>
+
+            <!-- Spanish Town -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Spanish Town</h3>
+                <p class="text-gray-600 mb-4">2 Young Street Spanish Town (Texaco Gas Station Plaza)</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-870-5744</p>
+                    <p class="text-gray-600">Phone 2: 876-870-5744</p>
+                </div>
+            </div>
+
+            <!-- Highgate -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Highgate St Mary</h3>
+                <p class="text-gray-600 mb-4">Main Street Highgate St Mary</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-813-1312</p>
+                    <p class="text-gray-600">Phone 2: 876-813-1312</p>
+                </div>
+            </div>
+
+            <!-- Old Harbour -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Old Harbour</h3>
+                <p class="text-gray-600 mb-4">Fairlane Plaza, Old Harbour, St. Catherine</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 876-231-4703</p>
+                    <p class="text-gray-600">Phone 2: 876-792-7715</p>
+                </div>
+            </div>
+
+            <!-- Mandeville -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                Mandeville</h3>
+                <p class="text-gray-600 mb-4">Shop 7C Juici Plaza, 3 Manchester Rd, Mandeville Manchester</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 1-658-208-7161</p>
+                    <p class="text-gray-600">Phone 2: 1-658-208-7161</p>
+                </div>
+            </div>
+
+            <!-- Stony Hill -->
+            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
+                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg> Stony Hill St Andrew</h3>
+                <p class="text-gray-600 mb-4">Main Street Stony Hill (Beside PC Bank)</p>
+                <div class="space-y-1">
+                    <p class="text-gray-600">Phone: 1-658-212-0442</p>
+                    <p class="text-gray-600">Phone 2: 1-658-207-6349</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
