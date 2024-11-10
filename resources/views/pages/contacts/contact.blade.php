@@ -431,47 +431,9 @@
                 </div>
             </div>
 
-            <!-- Hanover -->
-            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
-                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
-                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                        </svg> Hanover</h3>
-                <p class="text-gray-600 mb-4">Shop 14 Lovebird Mall, Bamboo Drive, Hopewell, Hanover</p>
-                <div class="space-y-1">
-                    <p class="text-gray-600">Phone: 876-574-5900</p>
-                    <p class="text-gray-600">Phone 2: 876-665-6611</p>
-                </div>
-            </div>
-
-            <!-- Montego Bay -->
-            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
-                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
-                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                        </svg> Montego Bay Delivery</h3>
-                <p class="text-gray-600 mb-4">Delivery only</p>
-                <div class="space-y-1">
-                    <p class="text-gray-600">Phone: 876-831-7012</p>
-                    <p class="text-gray-600">Phone 2: 876-831-7012</p>
-                </div>
-            </div>
-
-            <!-- Kingston -->
-            <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
-                   <h3 class="text-xl font-semibold text-gray-800 mb-3 flex items-center justify-start  ">
-                 <svg class="w-5 h-5 text-gray-600 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                        </svg> Kingston (125 Maxfield Ave)</h3>
-                <p class="text-gray-600 mb-4">Suite 1, 125 Maxfield Avenue, Kingston</p>
-                <div class="space-y-1">
-                    <p class="text-gray-600">Phone: 876-237-8448</p>
-                    <p class="text-gray-600">Phone 2: 876-665-6611</p>
-                </div>
-            </div>
+    
+ 
+ 
 
             <!-- UWI Mona -->
             <div class="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
