@@ -160,7 +160,7 @@
            </div>
                 <p  data-aos="fade-up" data-aos-duration="3000" class="w-full mt-12 mb-4 text-sm text-gray-500 lg:text-center"> 
                     <a href="https://play.google.com/store/apps/details?id=com.shiptojm.sts" class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
-                         <img class="  rounded-md" src="{{asset('storage/images/playStore.png')}}" alt="" class="object-fill w-full h-96 " srcset="">
+                         <img class="  rounded-md" src="{{asset('images/playStore.png')}}" alt="" class="object-fill w-full h-96 " srcset="">
                     </a>
                 </p>
         </section> 

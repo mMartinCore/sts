@@ -584,7 +584,7 @@
                         <div class="slide-image ">
                             <img 
                                 class="object-fit object-center"
-                                src="{{ asset('storage/images/cargo.png') }}" 
+                                src="{{ asset('images/cargo.png') }}" 
                                 alt="Shiptosureja Cargo Shipping" 
                                 loading="lazy">
                         </div>
@@ -609,7 +609,7 @@
                         </div>
                         <div class="slide-image">
                             <img 
-                                src="{{ asset('storage/images/shiptosureHeavy.png') }}" 
+                                src="{{ asset('images/shiptosureHeavy.png') }}" 
                                 alt="Shiptosureja Container Ship" 
                                 loading="lazy">
                         </div>
@@ -633,7 +633,7 @@
                         </div>
                         <div class="slide-image">
                             <img  
-                                src="{{ asset('storage/images/shiptosureCrane.jpeg') }}" 
+                                src="{{ asset('images/shiptosureCrane.jpeg') }}" 
                                 alt="Shiptosureja Air Freight" 
                                 loading="lazy">
                         </div>
@@ -659,7 +659,7 @@
                         </div>
                         <div class="slide-image">
                             <img 
-                                src="{{ asset('storage/images/container.jpg') }}"
+                                src="{{ asset('images/container.jpg') }}"
                                 alt="Global Shipping Container" 
                                 loading="lazy">
                         </div>
@@ -669,7 +669,7 @@
 
             <li class="splide__slide">
                     <section class="fourthBgColor relative" style="
-                        background-image: url({{ asset('storage/images/ship_to_sure_ja_from_china.png') }});
+                        background-image: url({{ asset('images/ship_to_sure_ja_from_china.png') }});
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;">

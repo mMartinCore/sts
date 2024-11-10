@@ -1,7 +1,7 @@
 <style>
 .custom-img {   
     
-    background-image: url("{{asset('storage/images/paral.jpg')}}");
+    background-image: url("{{asset('images/paral.jpg')}}");
 }
 </style>
 

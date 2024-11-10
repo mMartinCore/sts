@@ -25,7 +25,7 @@
         
         <div data-aos="flip-left" data-aos-duration="2000" 
              class="shadow-lg shadow-blue-500/20 rounded-lg w-5/6 lg:max-w-lg lg:w-full md:w-1/2 backdrop-blur-sm bg-gray-800/50 p-4 border border-gray-700">
-            <img class="rounded-lg shadow-lg" src="{{asset('storage/images/shiptosureHeavy.png')}}" alt="" class="object-fill w-full h-96">
+            <img class="rounded-lg shadow-lg" src="{{asset('images/shiptosureHeavy.png')}}" alt="" class="object-fill w-full h-96">
         </div>
     </div>
 </section>

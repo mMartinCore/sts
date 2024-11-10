@@ -52,13 +52,13 @@
         <h2 class="text-xl font-semibold text-gray-900">Connect With Us</h2>
         <div class="flex space-x-6">
             <a href="https://facebook.com/shiptosureja" class="transform transition hover:scale-110">
-                <img src="{{asset('storage/images/facebook.png')}}" alt="Facebook" class="w-10 h-10">
+                <img src="{{asset('images/facebook.png')}}" alt="Facebook" class="w-10 h-10">
             </a>
             <a href="https://instagram.com/shiptosureja" class="transform transition hover:scale-110">
-                <img src="{{asset('storage/images/instagram.png')}}" alt="Instagram" class="w-10 h-10">
+                <img src="{{asset('images/instagram.png')}}" alt="Instagram" class="w-10 h-10">
             </a>
             <a href="https://twitter.com/shiptosureja" class="transform transition hover:scale-110">
-                <img src="{{asset('/images/twitter.png')}}" alt="Twitter" class="w-10 h-10">
+                <img src="{{asset('images/twitter.png')}}" alt="Twitter" class="w-10 h-10">
             </a>
         </div>
     </div>

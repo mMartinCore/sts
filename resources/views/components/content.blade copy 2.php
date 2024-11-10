@@ -76,7 +76,7 @@
                 
                        
                         <!-- <img class="relative rounded-2xl sm:rounded-[2rem] shadow-2xl w-full object-cover transform hover:scale-[1.02] transition-transform duration-500" 
-                             src="{{asset('storage/images/paralax.png')}}" 
+                             src="{{asset('images/paralax.png')}}" 
                              alt="Shipping illustration"> -->
                     </div>
                 </div>

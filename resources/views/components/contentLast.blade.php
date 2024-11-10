@@ -2,7 +2,7 @@
 .bgx {
     border: 2px solid rgb(31, 41, 55);
     padding: 25px;
-    background-image: url("{{asset('storage/images/paralax.png')}}");
+    background-image: url("{{asset('images/paralax.png')}}");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -17,7 +17,7 @@
             class=" lg:w-1/2 xs:max-w-lg xs:w-full  md:w-1/2 mb-10   md:mb-0">
             <!-- <img class="object-cover object-center rounded" alt="hero"
                         src="https://dummyimage.com/720x600/F3F4F7/8693ac"> -->
-            <img class="shadow-md rounded-md" src="{{asset('storage/images/map2.png')}}" alt=""
+            <img class="shadow-md rounded-md" src="{{asset('images/map2.png')}}" alt=""
                 class="object-fill w-full h-96 " srcset="">
 
         </div>
@@ -45,7 +45,7 @@
                 <div class="relative rounded-2xl overflow-hidden shadow-2xl">
                     <img 
                         class="w-full h-auto object-cover" 
-                        src="{{asset('storage/images/elephan.jpeg')}}" 
+                        src="{{asset('images/elephan.jpeg')}}" 
                         alt="Shipping Services"
                     >
                 </div>

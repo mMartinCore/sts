@@ -562,7 +562,7 @@ button.secondary:hover {
                         </div>
                         <div class="slide-image">
                             <img 
-                                src="{{ asset('storage/images/cargo.png') }}" 
+                                src="{{ asset('images/cargo.png') }}" 
                                 alt="Shiptosureja Cargo Shipping" 
                                 loading="lazy">
                         </div>
@@ -587,7 +587,7 @@ button.secondary:hover {
                         </div>
                         <div class="slide-image">
                             <img 
-                                src="{{ asset('storage/images/containerShip.jpg') }}" 
+                                src="{{ asset('images/containerShip.jpg') }}" 
                                 alt="Shiptosureja Container Ship" 
                                 loading="lazy">
                         </div>
@@ -611,7 +611,7 @@ button.secondary:hover {
                         </div>
                         <div class="slide-image">
                             <img 
-                                src="{{ asset('storage/images/shiptosureCrane.jpeg') }}" 
+                                src="{{ asset('images/shiptosureCrane.jpeg') }}" 
                                 alt="Shiptosureja Air Freight" 
                                 loading="lazy">
                         </div>
