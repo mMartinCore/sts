@@ -58,7 +58,7 @@
                 <img src="{{asset('storage/images/instagram.png')}}" alt="Instagram" class="w-10 h-10">
             </a>
             <a href="https://twitter.com/shiptosureja" class="transform transition hover:scale-110">
-                <img src="{{asset('storage/images/twitter.png')}}" alt="Twitter" class="w-10 h-10">
+                <img src="{{asset('/images/twitter.png')}}" alt="Twitter" class="w-10 h-10">
             </a>
         </div>
     </div>
