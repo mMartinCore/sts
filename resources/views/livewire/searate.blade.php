@@ -33,7 +33,7 @@
                             @endif
                             @endforeach
                         @else
-                            <tr colspan="2"  class="text-2xl"> <td>No Sea Rates</td></tr>
+                            <tr colspan="2"  class="text-2xl text-center"> <td>No Sea Rates</td></tr>
                         @endif
 
                     </tbody>

@@ -16,14 +16,14 @@
             <div class="  overflow-hidden shadow-sm sm:rounded-lg">
 
                  <div class=" pt-16 mb-8 "> 
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-full">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 w-full">
                      
-                        <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="bg-white p-4 rounded-lg shadow-md">
                             <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Air Freight</h2>
                             <livewire:rate>
                         </div>
                       
-                        <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="bg-white p-4 rounded-lg shadow-md">
                             <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Sea Freight</h2>
                             <livewire:searate>
                         </div>
