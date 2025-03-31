@@ -19,12 +19,23 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 w-full">
                      
                         <div class="bg-white p-4 rounded-lg shadow-md">
-                            <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Air Freight</h2>
-                            <livewire:rate>
+                            <div class="flex items-center justify-center">
+                                  <svg class="w-7 h-7 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20.56 3.91C21.15 4.5 21.15 5.45 20.56 6.03L16.67 9.92L18.79 19.11L17.38 20.53L13.5 13.1L9.6 17L9.96 19.47L8.89 20.53L7.13 17.35L3.94 15.58L5 14.5L7.5 14.87L11.37 11L3.94 7.09L5.36 5.68L14.55 7.8L18.44 3.91C19 3.33 20 3.33 20.56 3.91Z"/>
+                                </svg>
+                                <h2 class="text-2xl font-bold text-gray-800   text-center">Air Freight</h2>
+                            </div>
+                                <livewire:rate>
                         </div>
                       
                         <div class="bg-white p-4 rounded-lg shadow-md">
-                            <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Sea Freight</h2>
+                            <div class="flex items-center justify-center">  
+                                <svg class="w-9 h-9 inline-block mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20 21c-1.39 0-2.78-.47-4-1.32-2.44 1.71-5.56 1.71-8 0C6.78 20.53 5.39 21 4 21H2v2h2c1.38 0 2.74-.35 4-.99 2.52 1.29 5.48 1.29 8 0 1.26.65 2.62.99 4 .99h2v-2h-2zM3.95 19H4c1.6 0 3.02-.83 4-2 .98 1.17 2.4 2 4 2s3.02-.83 4-2c.98 1.17 2.4 2 4 2h.05l1.89-6.68c.03-.1.05-.2.05-.31V8c0-1.1-.9-2-2-2h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v4.01c0 .11.02.21.05.31L3.95 19zM14 4h4v2h-4V4zM6 8h12v3.99L12 16 6 11.99V8z"/>
+                                </svg>
+                                
+                                <h2 class="text-2xl font-bold text-gray-800   text-center">Sea Freight</h2>
+                            </div>
                             <livewire:searate>
                         </div>
                     </div>
