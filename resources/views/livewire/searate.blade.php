@@ -76,6 +76,9 @@
                 <p class="text-sm font-medium leading-tight">
                     Packages over 100 lbs use volumetric pricing: (L × W × H in inches)  
                 </p>
+                <p class="text-sm font-medium leading-tight">
+                A $2.50 processing fee applies to each sea freight package.
+                </p>
             </div>
         </div>
 
