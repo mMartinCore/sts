@@ -1,4 +1,4 @@
-<div > 
+
     <div class=" flex flex-cols justify-center px-4 ">   
         <div class="flex flex-col w-full overflow-hidden shadow-md p-4 sm:rounded-lg">
             <div class=" ">

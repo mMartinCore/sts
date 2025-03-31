@@ -1,4 +1,4 @@
-<div class >
+ 
 
     <div class=" flex flex-cols justify-center px-4 ">
         {{-- <iframe class="  " src="https://sts.jashippers.com/team_rate" width="100%" height="800"
