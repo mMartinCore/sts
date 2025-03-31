@@ -1,5 +1,5 @@
 
-    <div class=" flex flex-cols justify-center px-4 ">   
+    <div class="   px-4 ">   
         <div class="flex flex-col w-full overflow-hidden shadow-md p-4 sm:rounded-lg">
             <div class=" ">
                 <table class="w-full text-md  text-gray-900    border border-2 rounded-lg ">
@@ -66,6 +66,17 @@
 
 
         </div>
-
+        
+        <!-- notes  -->
+        <div class="mx-auto px-4 py-3 mt-4 bg-amber-50 border-l-4 border-amber-300 rounded-r-lg shadow-sm hover:bg-amber-100 transition-colors duration-200">
+            <div class="flex items-center space-x-2 text-amber-800">
+                <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                </svg>
+                <p class="text-sm font-medium leading-tight">
+                    Packages over 100 lbs use volumetric pricing: (L × W × H in inches) ÷ 166
+                </p>
+            </div>
+        </div>
 
     </div>
