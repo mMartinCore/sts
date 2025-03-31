@@ -16,20 +16,25 @@
             <div class="  overflow-hidden shadow-sm sm:rounded-lg">
 
                 <div class=" pt-16 mb-8 "> 
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <!-- Air Freight Column -->
+
+<livewire:rate> 
+
+
+<!-- <div class=" pt-16 mb-8 "> 
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 w-full">
+                     
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Air Freight</h2>
                             <livewire:rate>
                         </div>
-                        
-                        <!-- Sea Freight Column -->
+                      
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Sea Freight</h2>
                             <livewire:searate>
                         </div>
                     </div>
-                </div>
+                </div> -->
+                    </div>
 
                     <div  class="container mt-20 px-4 mx-auto flex flex-wrap flex-col md:flex-row items-center justify-evenly">
                         <!--Left Col-->
