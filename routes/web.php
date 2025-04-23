@@ -26,6 +26,7 @@ Route::get('pages/contact',[HomeController::class, 'contact'])->name('pages.cont
 Route::get('pages/rates',[HomeController::class, 'rates'])->name('pages.rates');
 Route::get('pages/privacy',[HomeController::class, 'privacy'])->name('pages.privacy');
 Route::get('pages/term_condition',[HomeController::class, 'term_condition'])->name('pages.term_condition');
+Route::get('pages/ship-from-china',[HomeController::class, 'shipFromChina'])->name('pages.ship-from-china');
 Route::post('contacts/sendmail',[sendEmailController::class, 'mail'])->name('send.mail');
     
 

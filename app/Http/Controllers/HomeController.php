@@ -64,5 +64,9 @@ class HomeController extends Controller
         return view('pages.term_condition.term_condition');
     }
 
+    public function shipFromChina()
+    {
+        return view('pages.ship_from_china.index');
+    }
 
 }

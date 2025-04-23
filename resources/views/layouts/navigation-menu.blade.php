@@ -15,6 +15,7 @@
                     <x-navLink href="/" :active="request()->routeIs('home')">{{ __('Home') }}</x-navLink>
                     <x-navLink href="{{ route('pages.contact') }}" :active="request()->routeIs('pages.contact')">{{ __('Contact') }}</x-navLink>
                     <x-navLink href="{{ route('pages.rates') }}" :active="request()->routeIs('pages.rates')">{{ __('Rates') }}</x-navLink>
+                    <x-navLink href="{{ route('pages.ship-from-china') }}" :active="request()->routeIs('pages.ship-from-china')">{{ __('Ship from China') }}</x-navLink>
                     <x-navLink href="{{ route('pages.about') }}" :active="request()->routeIs('pages.about')">{{ __('About') }}</x-navLink>
                 </div>
                 <div class="flex items-center ml-6 space-x-3">
@@ -41,6 +42,7 @@
             <x-navLink href="/" :active="request()->routeIs('home')" class="block px-4 py-2">{{ __('Home') }}</x-navLink>
             <x-navLink href="{{ route('pages.contact') }}" :active="request()->routeIs('pages.contact')" class="block px-4 py-2">{{ __('Contact') }}</x-navLink>
             <x-navLink href="{{ route('pages.rates') }}" :active="request()->routeIs('pages.rates')" class="block px-4 py-2">{{ __('Rates') }}</x-navLink>
+            <x-navLink href="{{ route('pages.ship-from-china') }}" :active="request()->routeIs('pages.ship-from-china')" class="block px-4 py-2">{{ __('Ship from China') }}</x-navLink>
             <x-navLink href="{{ route('pages.about') }}" :active="request()->routeIs('pages.about')" class="block px-4 py-2">{{ __('About') }}</x-navLink>
             <div class="px-4 py-2 space-y-2">
                 <x-navLoginButton class="w-full justify-center">{{ __('Login') }}</x-navLoginButton>

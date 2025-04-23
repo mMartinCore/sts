@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <title>@yield('title', config('app.name', 'New Upgrade'))</title>
+    <meta name="description" content="@yield('meta_description', 'Ship To Sure Jamaica - Your reliable shipping partner')">
     <title>{{ config('app.name', 'New Upgrade') }}</title>
-
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
@@ -57,7 +58,8 @@
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%230b5717' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 
     }
-    </style> 
+    </style>
+    @yield('styles')
 </head>
 
 <body class="font-sans antialiased">
@@ -87,6 +89,7 @@
     </script>
     <script src="{{ mix('js/app.js') }}" defer></script>
     @livewireScripts
+    @yield('scripts')
 </body>
 
 </html>
